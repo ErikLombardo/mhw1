@@ -1,0 +1,84 @@
+﻿body{
+  margin: 0px;
+}
+
+article{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+ 
+}
+section{
+flex-grow:1;
+ margin-right: auto;
+margin-left:auto;
+ width:930px;
+background-color:yellow;
+}
+
+
+
+header {
+  display: flex;
+  background-color: black;
+  color: white;
+  height:60px;
+  margin-left: 0px;
+  margin-right: 0px;
+  font-size: 23px;
+}
+
+
+ #logo img{
+margin-right: 10px; 
+height: 140px;
+margin-top:-13px;
+background-color: brown;
+}
+
+
+#titolo_container {
+height: 60px;
+background-color:brown;
+}
+
+#titolo{
+margin-left:-25px;
+color:blue;
+
+}
+
+
+#container_barra{
+display:flex;
+background-color:brown;
+}
+
+.elementi_barra{
+background-color: white;
+color: black;
+margin-right: 30px;
+border-radius: 15px;
+padding: 6px;
+font-size: 15px;
+font-weight: bold;
+
+
+}
+
+
+
+
+
+ footer {
+  display: flex;
+  background-color: black;
+  color: white;
+  height:160px;
+  font-size: 23px;
+  align-items: center;
+  justify-content: end;
+}
+
+
+
