@@ -42,6 +42,7 @@ left:-280px;
 
 #titolo{
 color:white;
+font-weight: bold;
 position:relative;
 left:-295px;
 }
@@ -51,7 +52,7 @@ left:-295px;
 }
 
 #accesso {
-    border-radius: 22px;
+    border-radius: 40px;
     padding: 10px;
     font-size: 19px;
     font-weight: bold;
