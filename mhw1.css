@@ -12,8 +12,8 @@ section{
 flex-grow:1;
  margin-right: auto;
 margin-left:auto;
- width:930px;
-background-color:yellow;
+ width:1150px;
+
 }
 
 
@@ -26,44 +26,48 @@ header {
   margin-left: 0px;
   margin-right: 0px;
   font-size: 23px;
+justify-content:center;
+align-items: center;
 }
 
 
- #logo img{
-margin-right: 10px; 
+#logo img {
 height: 140px;
-margin-top:-13px;
-background-color: brown;
+position:relative;
+left:-280px;
 }
 
 
-#titolo_container {
-height: 60px;
-background-color:brown;
-}
+
 
 #titolo{
-margin-left:-25px;
-color:blue;
-
+color:white;
+position:relative;
+left:-295px;
+}
+#container_accesso {
+    position:relative;
+    right:-230px;
 }
 
-
-#container_barra{
-display:flex;
-background-color:brown;
+#accesso {
+    border-radius: 22px;
+    padding: 10px;
+    font-size: 19px;
+    font-weight: bold;
+    color: black;
+    background-color: white;
 }
 
-.elementi_barra{
-background-color: white;
-color: black;
-margin-right: 30px;
-border-radius: 15px;
-padding: 6px;
-font-size: 15px;
-font-weight: bold;
-
-
+.elementi_barra {
+    background-color: white;
+    color: black;
+    margin-right: 30px;
+    border-radius: 15px;
+    padding: 6px;
+    font-size: 15px;
+    font-weight: bold;
+  
 }
 
 
