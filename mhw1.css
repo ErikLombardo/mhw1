@@ -9,6 +9,8 @@ article{
  
 }
 section{
+    display:flex;
+    flex-direction:column;
 flex-grow:1;
  margin-right: auto;
 margin-left:auto;
@@ -34,21 +36,26 @@ align-items: center;
 #logo img {
 height: 140px;
 position:relative;
-left:-280px;
+right:450px;
 }
 
 
+
+#opzioni img {
+    height: 65px;
+}
 
 
 #titolo{
 color:white;
 font-weight: bold;
 position:relative;
-left:-295px;
+right:465px;
 }
+
 #container_accesso {
     position:relative;
-    right:-230px;
+    right:-400px;
 }
 
 #accesso {
@@ -60,6 +67,15 @@ left:-295px;
     background-color: white;
 }
 
+
+#container_barra {
+
+    position:absolute;
+        right:auto;
+        left:auto;
+}
+
+
 .elementi_barra {
     background-color: white;
     color: black;
@@ -67,13 +83,110 @@ left:-295px;
     border-radius: 15px;
     padding: 6px;
     font-size: 15px;
-    font-weight: bold;
+    font-weight: 550;
   
 }
 
 
 
+#intro {
+    display:block;
+    font-size:50px;
+    font-weight:bolder;
+    text-align:center;
+   margin-top:50px;
+   margin-bottom:50px;
+}
 
+
+
+
+#opzioni {
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.opzionisingole {
+ position:relative;
+ bottom:20px;
+ font-size:20px;
+ font-weight:500;
+}
+
+#ricerca {
+    position:relative;
+    border-radius: 40px;
+    display: flex;
+    height: 55px;
+   width:1000px;
+    align-items: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+    margin-left:auto;
+    margin-right:auto;
+}
+#ricerca img {
+    position:absolute;
+    height: 25px;
+    left:25px;
+}
+
+#dentro_ricerca {
+    position:absolute;
+   right: 7px;
+    padding:13px;
+    padding-left:28px;
+    padding-right:28px;
+  border-radius:44px;
+  font-size:19px;
+  font-weight:500;
+    background-color: limegreen;
+
+}
+
+
+#inizio {
+    position:relative;
+    margin-top:65px;
+    justify-content:start;
+}
+#inizio img {
+    width:1125px;
+    border-radius:10px;
+}
+
+#bebetter {
+    position: absolute;
+    color: white;
+    top: 305px;
+    left: 20px;
+    font-size: 40px;
+    font-weight: bolder;
+    text-shadow: 0 0 10px darkgreen;
+}
+#bebetter_contenuto {
+    position: absolute;
+    font-size: 20px;
+    left: 0px;
+    font-weight: 500;
+}
+#OPLA {
+   text-decoration:underline;
+}
+#bottone {
+    position: absolute;
+    bottom: 34px;
+    left: 20px;
+    background-color: whitesmoke;
+    border-radius: 37px;
+    padding: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: bolder;
+    font-size: 25px;
+    color: darkgreen;
+
+}
 
  footer {
   display: flex;
