@@ -223,9 +223,8 @@ font-size:38px;
     }
 
 .intestazione {
-  position:relative;
-  right:390px;
-
+    display:block;
+     width:1150px;
    margin-bottom:10px;
     font-size:1.3em;
     font-weight:bold;
