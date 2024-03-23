@@ -1,47 +1,42 @@
 ﻿body{
-  margin: 0px;
+    margin:0;
+    font-size:19px;
 }
 
 article{
   display: flex;
   flex-direction: column;
-  height: 100vh;
-  width:100vw;
- 
 }
-section{
-    display:flex;
-    flex-direction:column;
-justify-content:center;
-align-items:center;
+section {
 
-
-
-
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
 }
 
 
 
 header {
-    position:fixed;
-        top:0px;
-        left:0px;
-        right:0px;
-        z-index:1;
+    position: fixed;
+    width:100%;
+    z-index: 1;
     display: flex;
     background-color: black;
     color: white;
-    height: 60px;
-    font-size: 23px;
+    height: 7.6vh;
+    font-size: 19px;
     justify-content: center;
     align-items: center;
 }
 
 
 #logo img {
-height: 140px;
+height: 25vh;
 position:relative;
-right:410px;
+right:415px;
+top:1px;
 }
 
 
@@ -51,22 +46,25 @@ right:410px;
 
 
 #titolo{
+
 color:white;
 font-weight: bold;
 position:relative;
-right:425px;
-font-size:1.8rem;
+right:430px;
+font-size:2rem;
 }
 
 #container_accesso {
     position:relative;
-    left:400px;
+    left:395px;
+
 }
 
 #accesso {
+
     border-radius: 40px;
     padding: 10px;
-    font-size: 19px;
+ 
     font-weight: bold;
     color: black;
     background-color: white;
@@ -74,10 +72,10 @@ font-size:1.8rem;
 
 
 #container_barra {
-
-    position:absolute;
-        right:auto;
-        left:auto;
+    
+    position: absolute;
+    right: auto;
+    left: auto;
 }
 
 
@@ -87,43 +85,49 @@ font-size:1.8rem;
     margin-right: 30px;
     border-radius: 15px;
     padding: 6px;
-    font-size: 15px;
-    font-weight: 550;
+    font-size: 0.8em;
+    font-weight: 500;
   
 }
 
 
 
 #intro {
-    display:block;
-    font-size:50px;
-    font-weight:bolder;
-    text-align:center;
-   margin-top:50px;
-   margin-bottom:50px;
+    
+    display: block;
+
+    font-size: 4rem;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 50px;
 }
 
 
 
 
 #opzioni {
-    margin-left: auto;
-    margin-right: auto;
- 
+    
+    display: flex;
 
+    justify-content: center;
+    align-items: center;
 }
 
 .opzionisingole {
- position:relative;
- bottom:20px;
- font-size:20px;
+
+ position:static;
+ font-size:1.1em;
  font-weight:500;
 }
 
 #ricerca {
+
+    margin-top:7px;
     position:relative;
     border-radius: 40px;
     display: flex;
+
     height: 55px;
    width:1000px;
     align-items: center;
@@ -131,6 +135,7 @@ font-size:1.8rem;
    
 }
 #ricerca img {
+
     position:absolute;
     height: 25px;
     left:25px;
@@ -143,7 +148,7 @@ font-size:1.8rem;
     padding-left:28px;
     padding-right:28px;
   border-radius:44px;
-  font-size:19px;
+  
   font-weight:500;
     background-color: limegreen;
 
@@ -151,27 +156,31 @@ font-size:1.8rem;
 
 
 #inizio {
-    position:relative;
-    margin-top:65px;
-    justify-content:start;
-}
-#inizio img {
-    width:1125px;
-    border-radius:10px;
+
+    border-radius: 10px;
+    width: 1150px;
+    height: 500px;
+    position: relative;
+    margin-top: 65px;
+    background-image: url('immagini/palestr_main.png');
+    background-size: cover; /* Ridimensiona l'immagine per coprire l'intero contenitore */
+    
 }
 
 #bebetter {
+
     position: absolute;
     color: white;
-    top: 305px;
-    left: 20px;
-    font-size: 40px;
+    bottom:25%;
+    left: 2%;
+    font-size: 2.1em;
     font-weight: bolder;
     text-shadow: 0 0 10px darkgreen;
 }
 #bebetter_contenuto {
+
     position: absolute;
-    font-size: 20px;
+    font-size:  0.5em;
     font-weight: 500;
 }
 #OPLA {
@@ -179,41 +188,43 @@ font-size:1.8rem;
 }
 #bottone {
     position: absolute;
-    bottom: 34px;
-    left: 20px;
+    bottom: 7%;
+    left: 2%;
     background-color: whitesmoke;
     border-radius: 37px;
     padding: 12px;
     padding-left: 20px;
     padding-right: 20px;
     font-weight: bolder;
-    font-size: 25px;
+    font-size: 1.3em;
     color: darkgreen;
 
 }
 
 
 .flex-container {
-    position:relative;
-   display:flex;
-    justify-content:center;
 
-    
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 1150px;
+   
     
 }
-.flex-container img{
-   border-radius:25px;
-  padding:15px;
-   height:260px;
-  width:260px;
-}
+    .flex-container img {
+        border-radius: 18px;
+        padding: 8px;
+        height: 276px;
+        width: 276px;
+        
+    }
 
 .intestazione {
-    
-   position:absolute;
-   left:20px;
-   top:-25px;
-    font-size:25px;
+  position:relative;
+  right:390px;
+
+   margin-bottom:10px;
+    font-size:1.3em;
     font-weight:bold;
 
 }
@@ -227,7 +238,8 @@ font-size:1.8rem;
     align-items:center;
     background-color:rgb(255,237,211);
     height: 450px;
-    width: 100vw;
+    width: 100%;
+
 }
 
 #spaziointro{
@@ -244,12 +256,13 @@ footer {
     display: flex;
     background-color: black;
     color: white;
+    width: 100%;
     margin-top: 100px;
     min-height: 300px;
-    font-size: 23px;
-   width:100vw;
+    font-size: 1.2em;
     align-items: center;
     justify-content: end;
+    
 }
 .cellulare {
 
@@ -260,6 +273,13 @@ footer {
 
 @media (max-width:500px) {
 
+
+    header {
+        height: 10vh;
+        width: 100%;
+    }
+
+
     #container_barra {
         display: none;
     }
@@ -268,54 +288,125 @@ footer {
     #titolo {
         color: white;
         font-weight: bold;
-        position: static;
-        font-size: 4rem;
+      position:static;
+       
+        font-size: 2rem;
     }
 
     #logo img {
-        height: 270px;
-        position: static;
-        margin-right: -20px;
+        position:static;
+        height: 23vh;
+        margin-right:-20px;
+        
     }
 
     #intro {
         display: none;
     }
 
-   
-        #opzioni{
-    display: flex;
-    align-items:center;
-    
-   
-}
 
-        #container_accesso{
-
-            display:none;
-        }
-     
-    
-
-#opzioni img {
-    height: 100px;
-    
-}
-
-.opzionisingole {
-    position: static;
-    font-size: 2.5rem;
-    white-space: nowrap;
-    
-}
-   #spaziointrocell{
-
-       margin-top:100px;
-   }
-  
-    header{
-        height:120px;
-
+    #opzioni {
+        justify-content:normal;
+        overflow:auto;
+        max-width:100vw;
+        margin-left:20px;
+        margin-right:20px;
     }
 
-}
+
+    #container_accesso {
+        display: none;
+    }
+
+
+
+    #opzioni img {
+        height: 100px;
+    }
+
+    .opzionisingole {
+        position: static;
+        font-size: 1.5em;
+        white-space: nowrap;
+    }
+
+    #spaziointrocell {
+        margin-top: 100px;
+    }
+
+   
+  
+
+    #ricerca {
+      
+       position:relative;
+        border-radius: 9px;
+        display: flex;
+        height: 17vh;
+        width: 90%;
+       
+        align-items: center;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    }
+
+        #ricerca img {
+            position: absolute;
+            height: 25px;
+           top:10%;
+
+           
+
+        }
+
+    #dentro_ricerca {
+
+        position: absolute;
+        bottom:10%;
+        padding: 13px;
+        padding-left: 150px;
+        padding-right: 150px;
+        border-radius: 44px;
+        font-weight: 500;
+        background-color: limegreen;
+        
+    }
+
+    #inizio {
+
+        background-image: url('immagini/palestr_main.png');
+        background-size: cover; /* Ridimensiona l'immagine per coprire l'intero contenitore */
+        background-position: center left 10%;
+        border-radius: 10px;
+        height: 50vh;
+        width:100%;
+        align-items:center;
+        justify-content:center;
+    }
+
+        #inizio img {
+            display: none;
+        }
+
+
+    #bebetter{
+        position:static;
+    }
+
+    .flex-container {
+        justify-content:normal;
+        overflow: auto;
+        max-width:100%;
+       margin-left:20px;
+       margin-right:20px;
+    }
+   .intestazione{
+
+     position:static;
+     align-self:start;
+     margin-left:20px;
+   }
+    
+
+   
+
+    }
