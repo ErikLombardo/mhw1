@@ -1,11 +1,13 @@
-﻿body{
-    margin:0;
- font-size:19px;
+﻿body {
+    margin: 0;
+    font-size: 19px;
+    
 }
 
-article{
-  display: flex;
-  flex-direction: column;
+article {
+    
+    display: flex;
+    flex-direction: column;
 }
 section {
 
@@ -19,6 +21,7 @@ section {
 
 
 header {
+
     position: fixed;
     width:100%;
     z-index: 1;
@@ -93,6 +96,7 @@ font-size:38px;
 
 
 #intro {
+
     display: block;
     font-family: "Permanent Marker", cursive;
     font-weight: 400;
@@ -137,14 +141,15 @@ font-size:38px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
    
 }
-#ricerca img {
-
-    position:absolute;
-    height: 25px;
-    left:25px;
-}
+    #ricerca img {
+        
+        position: absolute;
+        height: 25px;
+        left: 25px;
+    }
 
 #dentro_ricerca {
+
     position:absolute;
    right: 7px;
     padding:13px;
@@ -159,7 +164,7 @@ font-size:38px;
 
 
 #inizio {
-
+    
     border-radius: 10px;
     width: 1150px;
     height: 500px;
@@ -167,23 +172,22 @@ font-size:38px;
     margin-top: 65px;
     background-image: url('immagini/palestr_main.png');
     background-size: cover; /* Ridimensiona l'immagine per coprire l'intero contenitore */
-    
 }
 
 #bebetter {
-
+   
     position: absolute;
     color: white;
-    bottom:25%;
+    bottom: 25%;
     left: 2%;
     font-size: 39px;
     font-weight: bolder;
     text-shadow: 0 0 10px darkgreen;
 }
 #bebetter_contenuto {
-
+    
     position: absolute;
-    font-size:  0.5em;
+    font-size: 0.5em;
     font-weight: 500;
 }
 #OPLA {
@@ -223,11 +227,12 @@ font-size:38px;
     }
 
 .intestazione {
-    display:block;
-     width:1150px;
-   margin-bottom:10px;
-    font-size:1.3em;
-    font-weight:bold;
+    
+    display: block;
+    width: 1150px;
+    margin-bottom: 10px;
+    font-size: 1.3em;
+    font-weight: bold;
 
 }
 
@@ -281,6 +286,7 @@ footer {
     }
 
     header {
+
         height: 92px;
         width: 100%;
     }
@@ -292,6 +298,7 @@ footer {
 
 
     #titolo {
+
         color: white;
         font-weight: bold;
       position:static;
@@ -299,6 +306,7 @@ footer {
     }
 
     #logo img {
+
         position:static;
         height: 209px;
         margin-right:-20px;
@@ -311,6 +319,7 @@ footer {
 
 
     #opzioni {
+
         justify-content:normal;
         overflow:auto;
         max-width:100vw;
@@ -334,12 +343,14 @@ footer {
     
 
     .opzionisingole {
+
         position: static;
         font-size: 1.3em;
         white-space: nowrap;
     }
 
     #spaziointrocell {
+
         margin-top: 50px;
     }
 
@@ -361,12 +372,11 @@ footer {
     }
 
         #ricerca img {
+            
             position: absolute;
             height: 25px;
-           top:10%;
-           left:5%;
-           
-
+            top: 10%;
+            left: 5%;
         }
 
     #dentro_ricerca {
@@ -401,18 +411,21 @@ footer {
         }
 
 
-    #bebetter{
-        position:absolute;
-        left:20px;
-        top:20px;
+    #bebetter {
+        
+        position: absolute;
+        left: 20px;
+        top: 20px;
     }
     #bottone{
+
         left:20px;
         bottom:30px;
 
     }
 
     .flex-container {
+
         justify-content:normal;
         overflow: auto;
         max-width:100%;
@@ -420,13 +433,14 @@ footer {
        margin-right:20px;
     }
    .intestazione{
-
-     position:static;
-     align-self:start;
+     display:inline;
+     width:initial;
      margin-left:20px;
+     align-self:start;
+     
    }
-    
 
+  
    
 
     }
