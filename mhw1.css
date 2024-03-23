@@ -1,6 +1,6 @@
 ﻿body{
     margin:0;
-    font-size:19px;
+ font-size:19px;
 }
 
 article{
@@ -26,14 +26,14 @@ header {
     background-color: black;
     color: white;
     height: 7.6vh;
-    font-size: 19px;
+    
     justify-content: center;
     align-items: center;
 }
 
 
 #logo img {
-height: 25vh;
+height: 17.3vh;
 position:relative;
 right:415px;
 top:1px;
@@ -41,7 +41,7 @@ top:1px;
 
 
 #opzioni img {
-    height: 65px;
+    height: 7vh;
 }
 
 
@@ -51,7 +51,7 @@ color:white;
 font-weight: bold;
 position:relative;
 right:430px;
-font-size:2rem;
+font-size:38px;
 }
 
 #container_accesso {
@@ -85,7 +85,7 @@ font-size:2rem;
     margin-right: 30px;
     border-radius: 15px;
     padding: 6px;
-    font-size: 0.8em;
+    font-size: 15px;
     font-weight: 500;
   
 }
@@ -96,7 +96,7 @@ font-size:2rem;
     
     display: block;
 
-    font-size: 4rem;
+    font-size: 70px;
     font-weight: bolder;
     text-align: center;
     margin-top: 80px;
@@ -114,10 +114,14 @@ font-size:2rem;
     align-items: center;
 }
 
+
+#opzioni img{
+    height:80px;
+}
 .opzionisingole {
 
  position:static;
- font-size:1.1em;
+ font-size:20px;
  font-weight:500;
 }
 
@@ -173,7 +177,7 @@ font-size:2rem;
     color: white;
     bottom:25%;
     left: 2%;
-    font-size: 2.1em;
+    font-size: 39px;
     font-weight: bolder;
     text-shadow: 0 0 10px darkgreen;
 }
@@ -273,9 +277,13 @@ footer {
 
 @media (max-width:500px) {
 
+    body {
+        margin: 0;
+        font-size:19px;
+    }
 
     header {
-        height: 10vh;
+        height: 92px;
         width: 100%;
     }
 
@@ -289,13 +297,12 @@ footer {
         color: white;
         font-weight: bold;
       position:static;
-       
-        font-size: 2rem;
+  
     }
 
     #logo img {
         position:static;
-        height: 23vh;
+        height: 209px;
         margin-right:-20px;
         
     }
@@ -313,6 +320,12 @@ footer {
         margin-right:20px;
     }
 
+    #opzioni img{
+
+        height:80px;
+    }
+
+ 
 
     #container_accesso {
         display: none;
@@ -320,18 +333,16 @@ footer {
 
 
 
-    #opzioni img {
-        height: 100px;
-    }
+    
 
     .opzionisingole {
         position: static;
-        font-size: 1.5em;
+        font-size: 1.3em;
         white-space: nowrap;
     }
 
     #spaziointrocell {
-        margin-top: 100px;
+        margin-top: 50px;
     }
 
    
@@ -342,8 +353,10 @@ footer {
        position:relative;
         border-radius: 9px;
         display: flex;
-        height: 17vh;
-        width: 90%;
+        flex-direction:column;
+        font-size:1.3em;
+        height: 140px;
+        width: 90vw;
        
         align-items: center;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
@@ -353,18 +366,20 @@ footer {
             position: absolute;
             height: 25px;
            top:10%;
-
+           left:5%;
            
 
         }
 
     #dentro_ricerca {
-
-        position: absolute;
+        
+       position:absolute;
         bottom:10%;
+        left:initial;
+        right:initial;
         padding: 13px;
-        padding-left: 150px;
-        padding-right: 150px;
+        padding-left:130px;
+        padding-right:130px;
         border-radius: 44px;
         font-weight: 500;
         background-color: limegreen;
@@ -377,7 +392,7 @@ footer {
         background-size: cover; /* Ridimensiona l'immagine per coprire l'intero contenitore */
         background-position: center left 10%;
         border-radius: 10px;
-        height: 50vh;
+        height: 500px;
         width:100%;
         align-items:center;
         justify-content:center;
