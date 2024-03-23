@@ -403,7 +403,14 @@ footer {
 
 
     #bebetter{
-        position:static;
+        position:absolute;
+        left:20px;
+        top:20px;
+    }
+    #bottone{
+        left:20px;
+        bottom:30px;
+
     }
 
     .flex-container {
